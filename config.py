@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-API_ID = int(getenv("API_ID", "5655010")) #optional
-API_HASH = getenv("API_HASH", "137d3d82e79c41f113ba640fc3cb2dfd") #optional
+API_ID = int(getenv("API_ID", "26419761")) #optional
+API_HASH = getenv("API_HASH", "ca28fb8b92c534534cf424d5360ec55d") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = getenv("OWNER_ID")
 MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8036379264:AAFuaM-uV6czMzKl_j8BAY47zal5f5KJ1P8")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
@@ -19,8 +19,8 @@ RMBG_API = getenv("RMBG_API", "3RCCWg8tMBfDWdAs44YMfJmC")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 PM_LIMIT = int(getenv("PM_LIMIT") or 5)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
-GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/hitokizzy/Geez-Pyro")
+GIT_TOKEN = getenv("GIT_TOKEN, https://github.com/Ferlyk19/fk190202.git") #personal access token
+REPO_URL = getenv("REPO_URL", "https://github.com/Ferlyk19/fk190202")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 BRANCH = getenv("BRANCH", "main") #don't change
